@@ -56,7 +56,7 @@ spec:
           matchLabels:
             resource.labels.subscription_id: echo-read
       target:
-        averageValue: 2
+        averageValue: "2"
         type: AverageValue
     type: External
   minReplicas: 1
