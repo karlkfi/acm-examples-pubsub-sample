@@ -15,4 +15,4 @@ kind: ServiceAccount
 metadata:
   name: pubsub-sample
   annotations:
-    iam.gke.io/gcp-service-account: pubsub-sample@pubsub-sample-1234.iam.gserviceaccount.com
+    iam.gke.io/gcp-service-account: pubsub-sample@example-platform-1234.iam.gserviceaccount.com
