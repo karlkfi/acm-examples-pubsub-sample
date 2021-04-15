@@ -9,7 +9,8 @@ spec:
       - name: subscriber
         image: gcr.io/google-samples/pubsub-sample:v1
         env:
-          GOOGLE_CLOUD_PROJECT: "example-pubsub-sample-1234"
+        - name: GOOGLE_CLOUD_PROJECT
+          value: "example-pubsub-sample-1234"
       serviceAccountName: pubsub-sample
 ---
 apiVersion: v1

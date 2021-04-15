@@ -34,7 +34,8 @@ spec:
     spec:
       containers:
       - env:
-          GOOGLE_CLOUD_PROJECT: example-pubsub-sample-1234
+        - name: GOOGLE_CLOUD_PROJECT
+          value: example-pubsub-sample-1234
         image: gcr.io/google-samples/pubsub-sample:v1
         name: subscriber
       serviceAccountName: pubsub-sample
